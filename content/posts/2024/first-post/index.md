@@ -2,13 +2,11 @@
 author: Phan Bá Dũng
 date: '2024-03-28'
 summary: >-
-  firstpost
+  Some note about my blog
 tags: 
-  - firstpost
+  - me
 title: First post
-coverAlt: nothing
-coverCaption: >-
-  firstpost
 ---
 
-Frist post on my blog
+Welcome to my blog, I created this blog with the purpose of storing various technology-related issues, sharing troubleshooting methods, and preserving personal memories.
+I hope you will find some useful things here.
