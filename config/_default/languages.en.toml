@@ -21,6 +21,6 @@ copyright = "Copy, _right?_ :thinking_face:"
     { email = "mailto:me@dungpb.com" },
     { github = "https://github.com/badungphan99" },
     { linkedin = "https://www.linkedin.com/in/phanbadung" },
-  #   { steam = "https://steamcommunity.com/profiles/userid" },
+    { steam = "https://steamcommunity.com/id/dungpb/" },
     { telegram = "https://t.me/dungpb" },
   ]
