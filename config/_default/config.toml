@@ -2,9 +2,9 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/getting-started/
 theme = "congo"
-baseURL = "https://blog.dungpb.com/"
+baseURL = "https://dungpb.com/"
 defaultContentLanguage = "en"
-googleAnalytics = "G-MF8LHM57JP"
+googleAnalytics = "G-38ZLQ4M1VD"
 
 enableRobotsTXT = true
 paginate = 10
@@ -12,4 +12,3 @@ summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
