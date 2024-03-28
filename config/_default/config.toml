@@ -4,6 +4,7 @@
 theme = "congo"
 baseURL = "https://blog.dungpb.com/"
 defaultContentLanguage = "en"
+googleAnalytics = "G-MF8LHM57JP"
 
 enableRobotsTXT = true
 paginate = 10
@@ -12,4 +13,3 @@ summaryLength = 0
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-googleAnalytics = "G-MF8LHM57JP"
