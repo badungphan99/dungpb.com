@@ -11,7 +11,7 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
+  name = "Post"
   pageRef = "posts"
   weight = 10
 
@@ -20,21 +20,17 @@
   pageRef = "cv"
   weight = 10
 
-#[[main]]
-#  name = "Categories"
-#  pageRef = "categories"
-#  weight = 20
-
-#[[main]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 30
-
 [[main]]
   identifier = "search"
   weight = 99
   [main.params]
     action = "search"
+
+[[main]]
+  identifier = "appearance"
+  weight = 99
+  [main.params]
+    action = "appearance"
 
 [[main]]
   identifier = "locale"
@@ -46,7 +42,7 @@
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 10

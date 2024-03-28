@@ -5,7 +5,7 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
-colorScheme = "congo"
+colorScheme = "Slate"
 defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = true
 
@@ -18,7 +18,7 @@ enableImageWebp = true
 fingerprintAlgorithm = "sha256"
 
 [header]
-  layout = "basic" # valid options: basic, hamburger, hybrid, custom
+  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
   # logo = "img/logo.jpg"
   # logoDark = "img/dark-logo.jpg"
   showTitle = true
@@ -26,12 +26,12 @@ fingerprintAlgorithm = "sha256"
 [footer]
   showCopyright = true
   showThemeAttribution = true
-  showAppearanceSwitcher = false
+  showAppearanceSwitcher = true
   showScrollToTop = true
 
 [homepage]
-  layout = "page" # valid options: page, profile, custom
-  showRecent = false
+  layout = "profile" # valid options: page, profile, custom
+  showRecent = true
   recentLimit = 5
 
 [article]
@@ -40,23 +40,23 @@ fingerprintAlgorithm = "sha256"
   showAuthor = true
   showBreadcrumbs = false
   showDraftLabel = true
-  showEdit = false
-  # editURL = "https://github.com/username/repo/"
+  showEdit = true
+  editURL = "https://github.com/badungphan99/blog/tree/master/content"
   editAppendPath = true
   showHeadingAnchors = true
   showPagination = true
-  invertPagination = false
+  invertPagination = true
   showReadingTime = true
-  showTableOfContents = false
-  showTaxonomies = false
+  showTableOfContents = true
+  showTaxonomies = true
   showWordCount = false
   showComments = false
-  # sharingLinks = ["facebook", "x-twitter", "mastodon", "pinterest", "reddit", "linkedin", "email", "telegram", "line", "weibo"]
+  sharingLinks = []
 
 [list]
-  showBreadcrumbs = false
-  showSummary = false
-  showTableOfContents = false
+  showBreadcrumbs = true
+  showSummary = true
+  showTableOfContents = true
   showTaxonomies = false
   groupByYear = true
   paginationWidth = 1
