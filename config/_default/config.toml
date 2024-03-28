@@ -12,4 +12,4 @@ summaryLength = 0
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-googleAnalytics = G-X74FDPWKVL
+googleAnalytics = "G-X74FDPWKVL"
