@@ -10,15 +10,16 @@ copyright = "Copy, _right?_ :thinking_face:"
   isoCode = "en"
   dateFormat = "2 January 2006"
   #mainSections = ["section1", "section2"]
-  description = "I am made of bones and skin, coffee, cigarettes, and 250 liters of alcohol."
+  description = "Made of bones and skin, coffee, cigarettes, and 250 liters of alcohol."
 
 [params.author]
   name = "Phan Bá Dũng"
   image = "img/author.jpg"
   headline = "🦀 created this blog with the purpose of storing various technology-related issues, sharing troubleshooting methods, and preserving personal memories."
-  bio = "I am made of bones and skin, coffee, cigarettes, and 250 liters of alcohol."
+  bio = "Made of bones and skin, coffee, cigarettes, and 250 liters of alcohol. "
   links = [
     { email = "mailto:me@dungpb.com" },
-    { github = "https://github.com/badungphan99" },
-    { linkedin = "https://www.linkedin.com/in/phanbadung" },
+    { blogger = "https://dungpb.com/posts/" },
+    { github = "https://github.com/badungphan99/" },
+    { linkedin = "https://www.linkedin.com/in/phanbadung/" },
   ]
